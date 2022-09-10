@@ -1,0 +1,96 @@
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+html,
+body {
+  margin: auto;
+  height: 100%;
+  background-color:	#008b8b;
+}
+
+.main:hover{
+   color:	#FFFF00;
+ }
+
+.main{
+  color:white;
+  text-decoration:none;
+  }
+
+
+
+#list{
+  list-style:none;
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  padding:5px;
+  width:15%;
+  }
+
+.c-site-header{
+  
+  color:#fff;
+  background:	#191970;
+  box-shadow: 3px 3px 9px 1px;
+ 
+  }
+
+
+
+.welc{
+  text-align: center;
+}
+
+.intro {
+ text-align: center;
+  color:	#191970;
+  font-family:papyrus;
+  }
+
+
+
+.c-site-footer{
+  text-align:center;
+  background:	black;
+  
+  }
+
+.pfooter{
+  color:white	;
+  padding:10px;
+  }
+
+.video{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 200px;
+  margin-left: 350px;
+}
+.abouttext{
+  color:white;
+  margin:20%;
+  font-family:monospace;
+  font-size:18px;
+   
+  
+}
+
+.social-list a {
+  font-size: 10px;
+  text-decoration: none;
+  color: #e1dddd;
+  margin-right: 5px;
+}
+
+  
+  
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors { display:none }
